@@ -1,5 +1,10 @@
 Revision history for Bencher-Scenario-URIEscaping
 
+0.002   2016-06-16 (PERLANCAR)
+
+	- Add sample data from URI-Escape-XS distribution.
+
+
 0.001   2016-06-16 (PERLANCAR)
 
         - First release.
