@@ -8,7 +8,7 @@ use strict;
 use utf8;
 use warnings;
 
-# we do this so URI::XSEscaoe does not override URI::Escape's functions, because
+# we do this so URI::XSEscape does not override URI::Escape's functions, because
 # obviously we want to test both
 $ENV{PERL_URI_XSESCAPE} = 0;
 
@@ -27,6 +27,11 @@ our $scenario = {
         {fcall_template => 'URI::Escape::XS::uri_escape(<str>)', tags=>['escape']},
         #{fcall_template => 'URI::Escape::XS::uri_escape_utf8(<str>)', tags=>['escape', 'utf8']},
         {fcall_template => 'URI::Escape::XS::uri_unescape(<str>)', tags=>['unescape']},
+
+        {fcall_template => 'URI::Encode::uri_encode(<str>)', tags=>['escape']},
+        {fcall_template => 'URI::Encode::uri_decode(<str>)', tags=>['unescape']},
+        {fcall_template => 'URI::Encode::XS::uri_encode(<str>)', tags=>['escape']},
+        {fcall_template => 'URI::Encode::XS::uri_decode(<str>)', tags=>['unescape']},
     ],
 
     datasets => [
