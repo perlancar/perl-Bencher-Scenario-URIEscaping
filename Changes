@@ -1,5 +1,3 @@
-Revision history for Bencher-Scenario-URIEscaping
-
 0.003   2016-06-17 (PERLANCAR)
 
 	- Add participants (URI::Encode, URI::Encode::XS).
