@@ -1,4 +1,4 @@
-0.004   2017-01-25 (PERLANCAR)
+0.004   2017-01-25  Released-By: PERLANCAR
 
 	- No functional changes.
 
@@ -7,16 +7,16 @@
           type=x_benchmarks.
 
 
-0.003   2016-06-17 (PERLANCAR)
+0.003   2016-06-17  Released-By: PERLANCAR
 
 	- Add participants (URI::Encode, URI::Encode::XS).
 
 
-0.002   2016-06-16 (PERLANCAR)
+0.002   2016-06-16  Released-By: PERLANCAR
 
 	- Add sample data from URI-Escape-XS distribution.
 
 
-0.001   2016-06-16 (PERLANCAR)
+0.001   2016-06-16  Released-By: PERLANCAR
 
         - First release.
