@@ -1,6 +1,8 @@
 package Bencher::Scenario::URIEscaping;
 
+# AUTHORITY
 # DATE
+# DIST
 # VERSION
 
 use 5.010001;
@@ -82,3 +84,10 @@ our $scenario = {
 
 1;
 # ABSTRACT:
+
+=head1 BENCHMARK NOTES
+
+L<URI::Encode::XS> is the fastest, but it does not support custom list of safe
+characters. If you don't want to encode C</> as C<%2F>, for example, you're out
+of luck. For URI escaping with custom character list support, the fastest is
+L<URI::XSEscape> followed by L<URI::Escape::XS>.
