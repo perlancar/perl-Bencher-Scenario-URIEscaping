@@ -17,7 +17,7 @@ $ENV{PERL_URI_XSESCAPE} = 0;
 our $scenario = {
     summary => 'Benchmark URI escaping using various modules',
 
-    precision => 0.001,
+    #precision => 0.001,
 
     participants => [
         {fcall_template => 'URI::Escape::uri_escape(<str>)', tags=>['escape']},
