@@ -2,3 +2,4 @@ Bencher-Scenario-URIEscaping-*
 .build
 *~
 nytprof*
+.DS_Store
